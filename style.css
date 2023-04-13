@@ -1,0 +1,146 @@
+/*General styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(70deg, #255, #e7e7e7);
+}
+
+.container{
+    background-color: white;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+/*heading styling*/
+header{
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.build-name{
+    margin: auto;
+    width: 100%;
+    background-color: rgba(240, 170, 170, 0.473);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.build-name h2{
+    color: red;
+}
+
+.build-name p{
+    font-size: .8rem;
+    color: grey;
+}
+
+.tittle{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+    /*border-radius: 0 0 8px 8px;*/
+    padding: 0 0 5px 0;
+}
+
+/*QUestion body styling*/
+
+.questions{
+    background-color: rgba(0, 255, 255, 0.473);
+    padding: 5px 10px;
+}
+
+.questions p{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+
+/*question body*/
+.ind-quest{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    position: relative;
+}
+
+.ind-quest span{
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.ind-quest input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.ind-quest input::placeholder{
+    color: rgb(247, 149, 149);
+    font-size: .7rem;
+}
+
+.ind-quest .per{
+    position: relative;
+}
+
+.ind-quest .per i{
+    position: absolute;
+    color: gray;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
+button{
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*correction and scoreboard styling*/
+.score{
+    width: 400px;
+    margin: 10px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+
+.correction{
+    display: none;
+}
